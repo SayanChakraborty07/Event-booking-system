@@ -1,9 +1,9 @@
-#Introduction
+INTRODUCTION
 
 This project is a console-based application developed in C++ that allows users to register, log in, view available events, book seats for events, and cancel bookings. It provides a simple, menu-driven interface that facilitates efficient event management and seat tracking.
 
 
-#Objective
+OBJECTIVE
 
 The main goal of this project is to create a system where users can easily:
 
@@ -14,7 +14,7 @@ Cancel their event bookings if needed.
 It aims to simulate a basic real-world event management system with essential features.
 
 
-#Features
+FEATURES
 
 User Registration and Login: Users can securely register and log in using their email, password, username, and mobile number.
 Password Protection: Password input is masked for security.
@@ -25,7 +25,7 @@ Booking Cancellation: Cancel an existing booking, with the system updating seat 
 Data Management: Use of maps and vectors to efficiently manage user information and event bookings.
 
 
-#Technologies Used
+TECHNOLOGIES USED
 
 Programming Language: C++
 
@@ -36,7 +36,7 @@ Libraries:
 <conio.h> for handling password input masking.
 
 
-#How It Works
+HOW IT WORKS
 
 Users can register by providing an email, username, password, and mobile number.
 After registration, users can log in using their credentials.
@@ -47,13 +47,13 @@ Cancel their existing bookings.
 The system dynamically updates the number of available seats based on bookings and cancellations.
 
 
-#Use Cases
+USE CASES
 
 Managing registrations and bookings for college or small-scale community events.
 Educational projects to demonstrate object-oriented programming and file-less data handling.
 A base prototype for more advanced event booking platforms.
 
 
-#Conclusion
+CONCLUSION
 
 This Event Booking and Management System successfully demonstrates core concepts of C++ such as classes, inheritance, vectors, maps, and user input handling. It offers a basic but functional model for real-world event management applications and can be expanded with features like event creation by organizers, booking history tracking, or database connectivity for larger deployments.
